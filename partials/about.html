@@ -1,0 +1,22 @@
+	<!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>{{heading}}</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>{{description}}</p>
+                </div>
+                <div class="col-lg-4" ng-repeat="message in messages">
+                    <p>{{message}}</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="https://github.com/skparwal/AngularJsDemoApplication" class="btn btn-download btn-lg fa fa-download"> Download Theme</a>
+                </div>
+            </div>
+        </div>
+    </section>
